@@ -1,0 +1,4 @@
+jp/ac/uryukyu/ie/e195424/AppTest.java
+ jp.ac.uryukyu.ie.e195424.AppTest
+jp/ac/uryukyu/ie/e195424/EnemyTest.java
+ jp.ac.uryukyu.ie.e195424.EnemyTest
