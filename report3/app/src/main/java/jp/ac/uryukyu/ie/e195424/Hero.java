@@ -27,19 +27,30 @@ public class Hero {
         dead = false;
         System.out.printf("%sのHPは%d。攻撃力は%dです。\n", name, maximumHP, attack);
     }
-
+    /**
+     * 変数のgetterとsetterを作成
+     * @param name heroの名前
+     */
+    public void setName(String name){
+        this.name = name;
+    }
     public String getName(){
         return this.name;
     }
-    public void setName(String name){
-        this.name = name;
+
+    /**
+     * @param hitPoint heroの体力
+     */
+    public void setHitPoint(int hitPoint){
+        this.hitPoint = hitPoint;
     }
     public int getHitPoint(){
         return hitPoint;
     }
-    public void setHitPoint(int hitPoint){
-        this.hitPoint = hitPoint;
-    }
+
+    /**
+     * @param attack heroの攻撃力
+     */
     public void setAttack(int attack){
         this.attack = attack;
     }
@@ -47,6 +58,9 @@ public class Hero {
         return this.attack;
     }
 
+    /**
+     * @param dead heroが生きているか死んでいるか 
+     */
     public void setDead(boolean dead){
         this.dead = dead;
     }
