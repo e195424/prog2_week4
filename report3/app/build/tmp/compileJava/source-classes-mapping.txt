@@ -1,8 +1,8 @@
+jp/ac/uryukyu/ie/e195424/App.java
+ jp.ac.uryukyu.ie.e195424.App
 jp/ac/uryukyu/ie/e195424/Enemy.java
  jp.ac.uryukyu.ie.e195424.Enemy
 Main.java
  Main
-jp/ac/uryukyu/ie/e195424/App.java
- jp.ac.uryukyu.ie.e195424.App
 jp/ac/uryukyu/ie/e195424/Hero.java
  jp.ac.uryukyu.ie.e195424.Hero
