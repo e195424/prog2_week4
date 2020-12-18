@@ -14,6 +14,7 @@ class Report5{
         } catch (NullPointerException e) {
             Message msa = new Message();
             System.out.println(msa.getMessage());
+            System.out.println(e.getMessage());
         }
     }
 }
