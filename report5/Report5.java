@@ -1,8 +1,8 @@
-package report5;
-
-class getMessage{
-    public getMessage(){
-        System.out.println("error"+" "+"NullPointerException");
+class Message{
+    String message;
+    public String getMessage(){
+        message="errorOFNullPointerException";
+        return this.message;
         
     }
 }
@@ -12,8 +12,8 @@ class Report5{
         try {
             System.out.println(str.length());
         } catch (NullPointerException e) {
-            getMessage gM = new getMessage();
-            e.getMessage();
+            Message msa = new Message();
+            System.out.println(msa.getMessage());
         }
     }
 }
